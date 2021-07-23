@@ -1,0 +1,43 @@
+.container {
+  position: absolute;
+  top: 15px;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  background-color: #ffffff;
+}
+
+.album {
+  overflow: auto;
+  position: absolute;
+  top: 15px;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  font-family: "NanumSquareRound";
+}
+.page_title {
+  background-color: #d3cfcf;
+  line-height: 30px;
+  border-top: 1px solid #818181;
+}
+
+.page_title > .photo_title {
+  margin-left: 15px;
+}
+
+.page_title > .photo_date {
+  font-size: 12px;
+  float: right;
+  margin-right: 50px;
+}
+
+.page_main > img {
+  width: 90%;
+  margin: 20px;
+}
+
+.page_main > div {
+  margin: 20px;
+  margin-bottom: 40px;
+}

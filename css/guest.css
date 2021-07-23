@@ -1,0 +1,50 @@
+.container {
+  position: absolute;
+  top: 15px;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.guest {
+  overflow: auto;
+  position: absolute;
+  top: 15px;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.guest_date {
+  font-family: "DungGeunMo";
+  background-color: #d3cfcf;
+  line-height: 30px;
+}
+
+.guest_title {
+  margin-left: 15px;
+}
+.guest_name {
+  color: blue;
+  font-weight: bold;
+}
+
+.guest_text {
+  flex: 0 0 8rem;
+  height: 10rem;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  margin: 40px 0px 60px 0px;
+  font-family: "Cafe24SsurroundAir";
+}
+
+.guest_text > img {
+  width: 25%;
+  margin-right: 20px;
+}
